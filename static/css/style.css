@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#upload-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#file-input, #brand-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background: #555;
+}
+
+#result {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loading {
+    text-align: center;
+    display: none;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.edit-btn, .save-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.edit-btn:hover, .save-btn:hover {
+    color: #007bff;
+}
+
+#brand-input, #year-input, #freestanding-input, #volume-input {
+    margin-right: 5px;
+}
